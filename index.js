@@ -55,7 +55,7 @@ const createRoom = (room) => {
     .catch((err) => console.log("error:" + err));
 };
 
-app.get("/video-call/:id", async function (req, res) {
+app.get("/video/:id", async function (req, res) {
   const roomId = req.params.id;
 
   const room = await getRoom(roomId);
