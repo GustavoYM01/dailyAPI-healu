@@ -1,2 +1,2 @@
-<h1>API utilizada para a videochamada no Healu</h1>
+<h1>Integração da API (Daily.co) utilizada no projeto</h1>
 
